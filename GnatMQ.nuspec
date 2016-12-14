@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>GnatMQ</id>
-        <version>1.1.0.0</version>
+        <version>1.1.1.0</version>
         <title>GnatMQ - MQTT Broker for .NET and WinRT</title>
         <authors>Paolo Patierno</authors>
         <owners>Paolo Patierno</owners>
@@ -18,8 +18,5 @@
     </metadata>
     <files>
         <file src="bin\Release\GnatMQ.Net\*.*" target="lib\net45" />
-        <file src="bin\Release\GnatMQ.WinRT\*.*" target="lib\win81" />
-        <file src="bin\Release\GnatMQ.WinRT\*.*" target="lib\wpa81" />
-		<file src="bin\Release\GnatMQ.NetCf39\*.*" target="lib\netcf39" />
     </files>
 </package>
